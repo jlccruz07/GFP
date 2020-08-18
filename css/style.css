@@ -29,7 +29,7 @@ h4 {
 }
 
 a {
-  color: #fff;
+  color: #158467;
   text-decoration: none;
 }
 
@@ -51,8 +51,9 @@ img {
 .navbar {
   font-size: 1.2rem;
   padding: 1.5rem 0;
-  background: url('https://images.pexels.com/photos/66869/green-leaf-natural-wallpaper-royalty-free-66869.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-  color: #fff;
+  /* background: url('https://images.pexels.com/photos/66869/green-leaf-natural-wallpaper-royalty-free-66869.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); */
+  background: #fff;
+  color: #158467;
 }
 
 .navbar .container {
@@ -148,6 +149,11 @@ img {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
+
+.section-c .gallery a {
+  border: 2px solid #e0ece4;
+}
+
 .section-c .gallery a:first-child {
   /* grid-row-start: 1;
   grid-row-end: 3; */
@@ -168,7 +174,15 @@ img {
 
 
 
+
 /* Order */
+
+.section-order h2{
+  color: #ffffdd;
+  padding-top: 3rem;
+  font-size: 4rem;
+}
+
 .section-order{
   position: relative;
   background: url('https://images.pexels.com/photos/442574/pexels-photo-442574.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center center/cover;
@@ -204,9 +218,6 @@ img {
   font-size: 1.1rem;
   border-radius: 30px;
 }
-
-
-
 
 /* Footer */
 .section-footer {
