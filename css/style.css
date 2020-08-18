@@ -80,6 +80,8 @@ img {
   color: #555;
 }
 
+
+/* Section A */
 .section-a {
   margin: 0;
   background: url('https://images.pexels.com/photos/886521/pexels-photo-886521.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat top center/cover;
@@ -103,6 +105,9 @@ img {
   margin: 1rem 0;
 }
 
+
+
+/* Section B */
 .section-b {
   position: relative;
   background: url('https://images.pexels.com/photos/957024/forest-trees-perspective-bright-957024.jpeg?cs=srgb&dl=pexels-felix-mittermeier-957024.jpg&fm=jpg') no-repeat bottom center/cover;
@@ -136,6 +141,9 @@ img {
   font-size: 1.5rem;
 }
 
+
+
+/* Gallery */
 .section-c .gallery {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -158,6 +166,49 @@ img {
   height: 100%;
 }
 
+
+
+/* Order */
+.section-order{
+  position: relative;
+  background: url('https://images.pexels.com/photos/268976/pexels-photo-268976.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat bottom center/cover;
+  height: 500px;
+}
+
+.section-order .flex-container {
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.section-order .shopee {
+  display: inline-block;
+  background: url('https://deo.shopeemobile.com/shopee/shopee-mobilemall-live-sg/assets/ca5d12864c12916c05640b36e47ac5c9.png') no-repeat center center/cover;
+  color: #fff;
+  margin: 2rem 4rem;
+  padding: 4rem 8rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  border-radius: 30px;
+}
+
+.section-order .lazada {
+  display: inline-block;
+  background: url('https://www.3lyonprestige.com/storage/32000/80/a57b3a035019213e009655a494d2b035.png') no-repeat center center/cover;
+  color: #fff;
+  margin: 2rem 4rem;
+  padding: 4rem 8rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  border-radius: 30px;
+}
+
+
+
+
+/* Footer */
 .section-footer {
   background: #158467;
   color: #fff;
@@ -265,6 +316,15 @@ img {
   top: 0;
   left: 0;
   background-color: var(--overlay-color);
+}
+
+.order-overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 700px) {
