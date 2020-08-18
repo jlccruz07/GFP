@@ -50,9 +50,9 @@ img {
 
 .navbar {
   font-size: 1.2rem;
-  padding: 1.5rem 0;
+  padding: 1rem 0;
   /* background: url('https://images.pexels.com/photos/66869/green-leaf-natural-wallpaper-royalty-free-66869.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); */
-  background: #fff;
+  background: #ebecf1;
   color: #158467;
 }
 
@@ -60,10 +60,29 @@ img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar h1{
+  font-size: 2rem;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar img {
+  height: 5rem;
+  width: 5rem;
+  padding: 0;
+  margin: 0;
 }
 
 .navbar .logo {
-  font-size: 2rem;
+  justify-self: flex-start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .navbar ul {
@@ -178,7 +197,7 @@ img {
 /* Order */
 
 .section-order h2{
-  color: #ffffdd;
+  color: #eeeeee;
   padding-top: 3rem;
   font-size: 4rem;
 }
@@ -221,7 +240,7 @@ img {
 
 /* Footer */
 .section-footer {
-  background: #158467;
+  background: #044a42;
   color: #fff;
   padding: 2rem 0;
 }
