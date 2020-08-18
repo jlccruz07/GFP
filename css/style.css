@@ -17,6 +17,10 @@ body {
   font-size: 1.1rem;
 }
 
+#slogan {
+  color: #044a42;
+}
+
 h1,
 h2,
 h3,
@@ -25,7 +29,7 @@ h4 {
 }
 
 a {
-  color: #444;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -46,8 +50,9 @@ img {
 
 .navbar {
   font-size: 1.2rem;
-  padding-top: 0.3rem;
-  padding-bottom: 0.3rem;
+  padding: 1.5rem 0;
+  background: url('https://images.pexels.com/photos/66869/green-leaf-natural-wallpaper-royalty-free-66869.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  color: #fff;
 }
 
 .navbar .container {
@@ -76,7 +81,9 @@ img {
 }
 
 .section-a {
-  margin: 2rem 0;
+  margin: 0;
+  background: url('https://images.pexels.com/photos/886521/pexels-photo-886521.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat top center/cover;
+  border: 1px solid var(--overlay-color);
 }
 
 .section-a .container {
@@ -98,7 +105,7 @@ img {
 
 .section-b {
   position: relative;
-  background: url('https://images.pexels.com/photos/139319/pexels-photo-139319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat bottom center/cover;
+  background: url('https://images.pexels.com/photos/957024/forest-trees-perspective-bright-957024.jpeg?cs=srgb&dl=pexels-felix-mittermeier-957024.jpg&fm=jpg') no-repeat bottom center/cover;
   height: 600px;
 }
 
@@ -152,9 +159,9 @@ img {
 }
 
 .section-footer {
-  background: var(--primary-color);
+  background: #158467;
   color: #fff;
-  padding: 4rem 0;
+  padding: 2rem 0;
 }
 
 .section-footer .container {
@@ -178,18 +185,22 @@ img {
 }
 
 .section-footer a > i {
-  color: #555;
+  color: #ccc;
   margin-right: 0.5rem;
 }
 
 .email-form {
   width: 100%;
   display: inline-block;
-  background-color: #555;
+  background-color: #062925;
   position: relative;
   border-radius: 20px;
   line-height: 0;
   margin-top: 1rem;
+}
+
+.placeholder {
+  color: #fff;
 }
 
 /* // .form-control-wrap {
