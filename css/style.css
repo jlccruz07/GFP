@@ -102,7 +102,7 @@ img {
 
 
 /* Section A */
-.section-a {
+/* .section-a {
   margin: 0;
   background: url('https://images.pexels.com/photos/886521/pexels-photo-886521.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat top center/cover;
   border: 1px solid var(--overlay-color);
@@ -123,7 +123,7 @@ img {
 
 .section-a p {
   margin: 1rem 0;
-}
+} */
 
 
 
@@ -135,7 +135,7 @@ img {
 }
 
 .section-b-inner {
-  color: #fff;
+  color: #f7f2e7;
   height: 100%;
   display: flex;
   flex-direction: column;
