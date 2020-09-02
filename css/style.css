@@ -1,7 +1,7 @@
 :root {
   --primary-color: #333;
   --secondary-color: #444;
-  --overlay-color: rgba(0, 0, 0, 0.5);
+  --overlay-color: rgba(0, 0, 0, 0.3);
 }
 
 * {
@@ -130,7 +130,8 @@ img {
 /* Section B */
 .section-b {
   position: relative;
-  background: url('https://images.pexels.com/photos/957024/forest-trees-perspective-bright-957024.jpeg?cs=srgb&dl=pexels-felix-mittermeier-957024.jpg&fm=jpg') no-repeat bottom center/cover;
+  /* background: url('https://images.pexels.com/photos/957024/forest-trees-perspective-bright-957024.jpeg?cs=srgb&dl=pexels-felix-mittermeier-957024.jpg&fm=jpg') no-repeat bottom center/cover; */
+  background: url('https://images.pexels.com/photos/409696/pexels-photo-409696.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat center center/cover;
   height: 600px;
 }
 
