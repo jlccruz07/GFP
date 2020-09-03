@@ -1,7 +1,7 @@
 :root {
   --primary-color: #333;
   --secondary-color: #444;
-  --overlay-color: rgba(0, 0, 0, 0.3);
+  --overlay-color: rgba(0, 0, 0, 0.2);
 }
 
 html {
@@ -145,7 +145,7 @@ img {
 .section-b {
   position: relative;
   /* background: url('https://images.pexels.com/photos/957024/forest-trees-perspective-bright-957024.jpeg?cs=srgb&dl=pexels-felix-mittermeier-957024.jpg&fm=jpg') no-repeat bottom center/cover; */
-  background: url('https://images.pexels.com/photos/409696/pexels-photo-409696.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat center center/cover;
+  background: url('https://images.pexels.com/photos/886521/pexels-photo-886521.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260') no-repeat center center/cover;
   height: 600px;
 }
 
@@ -167,7 +167,7 @@ img {
 }
 
 .section-b-inner h2 {
-  font-size: 5rem;
+  font-size: 4.2rem;
   margin-top: 1rem;
 }
 
@@ -176,6 +176,9 @@ img {
   font-size: 1.5rem;
 }
 
+i {
+  font-family: 'Dancing Script', cursive;
+}
 
 
 /* Gallery */
@@ -220,7 +223,8 @@ img {
 
 .section-order{
   position: relative;
-  background: url('https://images.pexels.com/photos/442574/pexels-photo-442574.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center center/cover;
+  /* background: url('https://images.pexels.com/photos/442574/pexels-photo-442574.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center center/cover; */
+  background: url('https://cdn.pixabay.com/photo/2018/01/04/19/57/plants-3061511_960_720.jpg') no-repeat center center/cover;
   height: 500px;
 }
 
@@ -232,7 +236,8 @@ img {
 
 .section-order .shopee {
   display: inline-block;
-  background: url('https://deo.shopeemobile.com/shopee/shopee-mobilemall-live-sg/assets/ca5d12864c12916c05640b36e47ac5c9.png') no-repeat center center/cover;
+  /* background: url('https://deo.shopeemobile.com/shopee/shopee-mobilemall-live-sg/assets/ca5d12864c12916c05640b36e47ac5c9.png') no-repeat center center/cover; */
+  background: url('https://cdn.pixabay.com/photo/2020/09/03/13/42/13-42-13-133_960_720.jpg') no-repeat center center/cover;
   color: #fff;
   margin: 2rem 4rem;
   padding: 4rem 8rem;
@@ -244,7 +249,8 @@ img {
 
 .section-order .lazada {
   display: inline-block;
-  background: url('https://www.3lyonprestige.com/storage/32000/80/a57b3a035019213e009655a494d2b035.png') no-repeat center center/cover;
+  /* background: url('https://www.3lyonprestige.com/storage/32000/80/a57b3a035019213e009655a494d2b035.png') no-repeat center center/cover; */
+  background: url('https://cdn.pixabay.com/photo/2020/09/03/13/45/13-45-50-285_960_720.jpg') no-repeat center center/cover;
   color: #fff;
   margin: 2rem 4rem;
   padding: 4rem 8rem;
@@ -259,7 +265,7 @@ img {
   font-size: 1.2rem;
   padding: 1rem 0;
   /* background: url('https://images.pexels.com/photos/66869/green-leaf-natural-wallpaper-royalty-free-66869.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); */
-  background: #158467;
+  background: #316748;
   color: #f7f2e7;
 }
 
