@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=1024">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/simple-lightbox.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -14,13 +15,11 @@
         <div class="container">
           <div class="logo">
             <img src="img/logo.png" alt="" />
-            <h1>Green Footprints </h1>
+            <h1>Green Footprints™ </h1>
          </div>
           <ul class="nav">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <!-- <li><a href="#specs">Specs</a></li>
-                      <li><a href="#contact">Contact</a></li> -->
+            <li><a href="#products">Products</a></li>
+            <li><a href="#order">Order</a></li>
           </ul>
         </div>
       </nav>
@@ -57,7 +56,7 @@
       </section>
   
       <!-- Gallery -->
-      <section class="section-c">
+      <section class="section-c" id="products">
         <div class="gallery">
           <a href="https://images.pexels.com/photos/4202924/pexels-photo-4202924.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="big"
             ><img src="https://images.pexels.com/photos/4202924/pexels-photo-4202924.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt=""
@@ -81,7 +80,7 @@
       </section>
 
       <!-- Order -->
-      <section id="about" class="section-order">
+      <section id="order" class="section-order">
         <div class="order-overlay">
           <div class="section-b-inner py-5">
             <h2>Start your simple footsteps to green living now.</h2>
@@ -94,12 +93,33 @@
       </section>
 
       <!-- Footer -->
-      <footer class="section-footer py-4 bg-primary">
+
+      <nav class="footer">
+        <div class="container">
+          <div class="logo">
+            <!-- <img src="img/logo.png" alt="" /> -->
+            <h1><a href="#home" class="flink">Green Footprints™</a></h1>
+         </div>
+          <ul class="nav">
+            <li> <a href="https://www.facebook.com/GreenFootprintsPH" target="_blank" class="flink">
+              <i class="fab fa-facebook fa-2x" class="flink"></i>
+            </a></li>
+            <li><a href="https://www.messenger.com/t/GreenFootprintsPH" target="_blank" class="flink"><i class="fab fa-facebook-messenger fa-2x"></i></a></li>
+            <li><a href="https://www.instagram.com/greenfootprintsph/" target="_blank" class="flink">
+              <i class="fab fa-instagram fa-2x"></i>
+            </a></li>
+            <li><a href="mailto: greenfootprintsph@gmail.com" class="flink"><i class="far fa-envelope fa-2x"></i></a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <!-- <footer class="section-footer py-4 bg-primary">
         <div class="container">
           <div>
             <h2 class="text-2 mb-1">Green Footprints</h2>
-            <!-- <a href="http://twitter.com">
-              <i class="fab fa-twitter fa-2x"></i> -->
+            <a href="http://twitter.com">
+              <i class="fab fa-twitter fa-2x"></i>
             </a>
             <a href="https://www.facebook.com/GreenFootprintsPH" target="_blank">
               <i class="fab fa-facebook fa-2x"></i>
@@ -153,7 +173,7 @@
             </form>
           </div>
         </div>
-      </footer>
+      </footer> -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="js/simple-lightbox.jquery.min.js"></script>
